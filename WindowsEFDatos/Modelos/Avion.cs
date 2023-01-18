@@ -14,6 +14,8 @@ namespace WindowsEFDatos.Modelos
         [Key]
         public int IdAvion { get; set; }
 
+        [Required]
+        [Column(TypeName = "int")]
         public int Capacidad { get; set; }
 
         [Column(TypeName = "varchar")]
